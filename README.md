@@ -56,11 +56,3 @@ Project Proposal: Machine Learning in Supply Chain Demand Forecasting
 
     - I find out a Kaggle article that covers a similar topic and models to what I’m working on; it focuses on analyzing big data for supply chain demand forecasting. 
     - Kaggle article link: https://www.kaggle.com/code/graisybiswal/demand-forecasting-in-supply-chain-analytics/notebook
-
-
-
-**Project Expectations**
-
-- All data sources should be cited in the final report and in code.
-- All reference material should be cited in the final report
-- Try your best! A “failed” model can still earn you a passing grade. In your final report there will be a section on future improvements. 
