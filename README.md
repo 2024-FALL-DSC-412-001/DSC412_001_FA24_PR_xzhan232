@@ -50,11 +50,8 @@ Various exploratory data analysis (EDA) techniques were applied to understand th
 - **Statistics by Store-Product Breakdown**: Aggregated sales statistics for each store-product pair to understand average sales, variability, and performance.
 
 ## Modeling Approach
-The project implemented several time series forecasting models:
-1. **LightGBM**: A gradient boosting model for predicting sales based on engineered features.
-2. **Exponential Smoothing Models**: Single, Double, and Triple Exponential Smoothing models to capture trends and seasonality.
-3. **ARIMA**: A classic time series model for sales prediction, particularly for cases with trend and seasonality.
-4. **SARIMA**: A seasonal version of ARIMA, specifically tuned for 2017 demand forecasting.
+The project implemented time series forecasting models:
+1. **Random Forest Regressor**: The Random Forest Regressor was utilized to predict future values based on historical data. It is an ensemble learning method that combines multiple decision trees to enhance predictive performance. Features such as lagged variables, rolling averages, and time-based indicators (e.g., day of the week, month, etc.) were engineered from the time series data to serve as input predictors. This approach helps capture non-linear relationships and interactions between the variables. The model was fine-tuned using grid search or cross-validation to optimize hyperparameters like the number of estimators and maximum tree depth.
 
 ## Results and Evaluation
 Each model was evaluated based on forecasting accuracy by comparing predicted and actual sales values for 2017. The models were fine-tuned, and performance metrics were compared to determine the best approach for different scenarios.
